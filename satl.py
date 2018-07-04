@@ -60,9 +60,6 @@ class Satl(object):
             _id = cls.id_generate(key)
         return '%s/%s' % (cls.data_path, _id)
 
-    def set_keywords(self, keywords):
-        self.keywords = keywords
-
     def set_data(self, data):
         self.data = data
 

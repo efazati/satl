@@ -2,8 +2,7 @@
 In persian bucket is Satl
 In this utility you can save documents in files without any dependencies just with python
 
-
-## commands:
+## Tutorial:
 Create document
 
 ```
@@ -37,3 +36,28 @@ Check is key exists?
 ```
 Satl.is_exists(url)
 ```
+
+
+## API:
+* update_date
+* create_date
+* pk
+* keyword_path
+* get_path
+* set_keywords
+* set_data
+* relate_keyword
+* unrelate_keyword
+* rerelate_keywords
+* save
+* attach_file_object
+* attach_file_path
+* files
+* count_files
+* load
+* get
+* is_exists
+* filter_by_keyword
+* filter_by_date
+* all
+* count
