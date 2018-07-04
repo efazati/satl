@@ -71,11 +71,12 @@ class Satl(object):
 
         symlink(self.path, keyword_path)
 
-    def unrelate_keyword(self, keyword):
+    def unrelate_keyword(self, keywords):
         raise NotImplementedError
 
-    def rerelate_keywords(self):
-        raise NotImplementedError
+    def rerelate_keywords(self, keywords):
+        for keyword in keywords:
+            self.relate_keyword(keyword)
 
     def _prepare_storage(self):
         if not path.exists(self.store_path):
